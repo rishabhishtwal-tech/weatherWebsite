@@ -19,7 +19,7 @@ const forecast=(latitude,longitude,callback)=>{
            else
            {    
 
-              callback(undefined,'It is currently '+(body.current.temp-273).toFixed(2)+' degree Celsius, feels like '+(body.current.feels_like-273).toFixed(2)+'.Their is '+ body.current.clouds + '% chance of rain')
+              callback(undefined,'It is currently '+(body.current.temp-273).toFixed(2)+' degree Celsius, feels like '+(body.current.feels_like-273).toFixed(2)+'.There is '+ body.current.clouds + '% chance of rain')
            }
 
     })
